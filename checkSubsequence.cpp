@@ -67,3 +67,4 @@ int main(){
 
 	return 0;
 }
+//http://codeforces.com/contest/1194/problem/C
