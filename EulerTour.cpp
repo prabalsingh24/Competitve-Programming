@@ -1,4 +1,6 @@
 //http://codeforces.com/contest/780/problem/E
+//the order of vertices visited by a DFS, where each vertex v is written down every time DFS visits it (in particular, when a recursive call made from v terminates)
+//Note that the Euler tour has exactly 2n - 1 
 #include<iostream>
 #include<vector>
 #include<list>
