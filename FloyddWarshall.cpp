@@ -1,6 +1,7 @@
 //https://codeforces.com/contest/1204/problem/C
 //https://codeforces.com/contest/295/problem/B
 //https://codeforces.com/contest/25/problem/C
+//https://codeforces.com/contest/33/problem/B
 //FLYOD WARSHALL. distance[i][j] is distance between node i and j;
 #include<iostream>
 #include<vector>
