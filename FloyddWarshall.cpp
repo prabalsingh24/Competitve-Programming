@@ -1,5 +1,6 @@
 //https://codeforces.com/contest/1204/problem/C
 //https://codeforces.com/contest/295/problem/B
+//https://codeforces.com/contest/25/problem/C
 //FLYOD WARSHALL. distance[i][j] is distance between node i and j;
 #include<iostream>
 #include<vector>
@@ -44,7 +45,7 @@ int main(){
 		}
 	}
 	//cout<<"HERE"<<endl;
-	for(int k=0;k<n;k++){																		//FLOYDD WARSHALL
+	for(int k=0;k<n;k++){						//FLOYDD WARSHALL
 		for(int i=0;i<n;i++){
 			for(int j=0;j<n;j++){
 				distance[i][j]=min(distance[i][j],distance[i][k]+distance[k][j]);
