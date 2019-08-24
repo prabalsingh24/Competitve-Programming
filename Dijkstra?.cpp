@@ -1,3 +1,4 @@
+//https://codeforces.com/contest/20/problem/C
 #include<iostream>
 #include<set>
 #include<vector>
@@ -23,9 +24,9 @@ int main(){
 	d[1]=0;
 	s.insert(make_pair(0,1));
 	while(!s.empty()){
-		//cout<<"here  ";
+		//cout<<"here  ";			
 		auto t=*(s.begin());
-		int currNode=t.second;
+		int currNode=t.second;						// Dijkstra's algorithm
 		//cout<<currNode<<endl;
 		for(auto j:ajdList[currNode]){
 			long long nextNode=j.first;
