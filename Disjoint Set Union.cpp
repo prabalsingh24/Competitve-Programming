@@ -1,4 +1,5 @@
 //https://codeforces.com/contest/1213/problem/G
+//https://codeforces.com/contest/25/problem/D
 #include<bits/stdc++.h>
 using namespace std;
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
